@@ -1,0 +1,51 @@
+header{
+    width: 100%;
+    padding: 28px 8%;
+    background-color: rgb(245, 255, 46);
+    top:0;
+    position: sticky;
+    z-index: 3;
+    
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+ 
+#nav-logo{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: "Bungee Tint", sans-serif;
+      
+}
+
+
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 68px;
+    
+}
+
+.nav-iten a{    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.titulo-logo{
+    font-family: "Bungee Tint", sans-serif;
+    padding: auto;
+    width: 50%;
+    font-size:42px;
+
+}
+
+
+
