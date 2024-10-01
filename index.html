@@ -9,23 +9,36 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title> Landing Page 140</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/menu.js" defer></script>
 </head>
 
 <body>
     <header>
         <nav class="navbar">
-            <i class="fa-solid fa-burger" id class="nav-logo"> </i>
+            
             <span class="logologo"></span>
             <span class="titulo-logo"> GURILLA'S BURGUER</span>
             <ul class="nav-list">
-                <li class="nav-item"><a href="">Home</a></li>
-                <li class="nav-item"><a href="">Cardápio</a></li>
-                <li class="nav-item"><a href="">Avaliações</a></li>
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="cardapio">Cardápio</a></li>
+                <li class="nav-item"><a href="depoimentos">Avaliações</a></li>
             </ul>
             <button class="btn-default">
                 Peça Aqui
             </button>
         </nav>
+        <button class="mobile-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="mobile-menu">
+            <ul class="mobile-nav-list"></ul>
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#cardapio">Cardapio</a></li>
+                <li class="nav-item"><a href="#depoimentos">Avaliações</a></li>
+            <a href=""></a>
+        </div>
+
     </header>
 
     <main class="content">
@@ -43,7 +56,7 @@
                     <a href="" class="btn-default">Ver Cardápio</a>
                     <a href="" id="phone_button">
                         <button class="btn-default">
-                            <i class="fa-solid fa-phone-volume"></i>"
+                            <i class="fa-solid fa-phone-volume"></i>
                         </button>
                         (67) 98122-2121
                     </a>
@@ -180,7 +193,7 @@
                     <i class="fa-solid fa-heart"></i>"
                 </div>
                 <img src="../img burguer/artesanal9.png" alt="" clas="card-imagem">
-                <h3 class="card-title">X-BABÚINO</h3>
+                <h3 class="card-title">X-MARCEL</h3>
                 <span class="card-descricao">
                     Hambúrguer de carne suculenta e bem temperada,
                     mas com o dobro do tamanho normal, simbolizando a força e a presença de um "babuíno".
@@ -208,7 +221,7 @@
                     <i class="fa-solid fa-heart"></i>"
                 </div>
                 <img src="../img burguer/artesanal6.png" alt="" clas="card-imagem">
-                <h3 class="card-title">X-PREGO</h3>
+                <h3 class="card-title">X-BUBBLES</h3>
                 <span class="card-descricao">
                     Hambúrguer de carne suculenta e bem temperada,
                     mas com o dobro do tamanho normal, simbolizando a força e a presença de um "babuíno".
@@ -236,7 +249,7 @@
                     <i class="fa-solid fa-heart"></i>"
                 </div>
                 <img src="../img burguer/artesanal7.png" alt="" clas="card-imagem">
-                <h3 class="card-title">X-BABÚINO</h3>
+                <h3 class="card-title">X-CÉSAR</h3>
                 <span class="card-descricao">
                     Hambúrguer de carne suculenta e bem temperada,
                     mas com o dobro do tamanho normal, simbolizando a força e a presença de um "babuíno".

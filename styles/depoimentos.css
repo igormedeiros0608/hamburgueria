@@ -54,6 +54,28 @@
 }
 
 .btn-ver{
-    position: absolute;
-    right: 50px;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+
+@media screen and (max-width:600px) {
+    .depoimentos{
+        flex-direction: column;
+    }
+    .img-chef{
+        width: 60%;
+        right: 60%;
+
+        flex-direction: column;
+        
+    }
+    .feedbacks{
+      
+        flex-direction:column;
+
+    }
+    
 }

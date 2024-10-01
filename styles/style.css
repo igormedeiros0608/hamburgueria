@@ -83,3 +83,11 @@
     font-size: 2.1875rem;
     text-align: center;
 }
+
+@media screen and (max-width:600px){
+    .btn-default{
+        display:none;
+    }
+    
+    
+}
